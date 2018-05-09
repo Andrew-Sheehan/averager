@@ -1,17 +1,21 @@
 {
   "name": "averager",
   "version": "1.0.0",
-  "description": "A in-class exercise using TypeScript (^2.6) with Webpack",
+  "description": "A in-class exercise using TypeScript (2.7) with Webpack",
   "main": "app.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack --mode development"
   },
   "repository": {
     "type": "git",
     "url": "git://https://github.com/Andrew-Sheehan/averager.git"
   },
-  "keywords": ["webpack", "typescript", "homework", "javascript"],
+  "keywords": [
+    "webpack",
+    "typescript",
+    "homework",
+    "javascript"
+  ],
   "author": "Andrew Sheehan <andrew@zumatra.com>",
   "license": "MIT",
   "devDependencies": {
@@ -22,6 +26,7 @@
     "webpack-cli": "^2.0.10"
   },
   "dependencies": {
-    "jquery": "3.3.1"
+    "jquery": "3.3.1",
+    "webpack-dev-server": "3.1.1"
   }
 }

@@ -8,6 +8,8 @@ class Averager {
         $("#getAverage").on(this.CLICK, (event:MouseEvent) => {
             this.findAverage();
         });
+
+        
         $("#addBtn").on(this.CLICK, (event:MouseEvent) => {
             const val:String = $("#target").val() as string;
             const _number:Number = new Number(val);
